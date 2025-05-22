@@ -1,0 +1,312 @@
+<html>
+<head> 
+<meta charset="UTF-8">
+
+
+
+<link rel="stylesheet" type="text/css" href="food.css">
+
+
+
+
+
+
+</head>
+<body>
+
+<h1 align="center"> My Food </h1>
+<div class="yy">
+<h1  > Mail </h1>
+</div>
+
+<nav id="mon"> 
+<a href="#Homes" onclick="bu()" > Home</a>
+<a href="#foods" onclick="cu()"> food</a>
+<a href="#Abouts" onclick="du()"> About</a>
+<a href="#contacts us" onclick="eu()"  > contact us</a>
+</nav>
+
+<div id="Homes"></div>
+<div id="foods"></div>
+<div id="Abouts"></div>
+<div id="Contacts us"></div>
+
+
+
+
+<div id='toggles' onclick='changeTheme()' title='Change to dark mode'></div>
+
+
+
+
+
+
+
+<div onclick="ppp()"></div>
+
+<div class="ph-list" id="bu">
+ <div class="ph">
+    <div class="ph1">   
+<img src="sandwich.jpg" alt="sandwich" ></img>
+
+    </div>
+    <div class="pop">
+<h2> The Perfect Sandwich, A Real NYC Classic </h2>
+<p> Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum </p>
+        </div>
+
+
+    </div>
+
+
+<div class="ph">
+    <div class="ph1">   
+        
+<img src="steak.jpg" alt="steak" ></img>
+    </div>
+<div class="pop">
+<h2>Let Me Tell You About This Steak</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+</div>
+
+
+
+<div class="ph">
+    <div class="ph1">   
+        
+<img src="cherries.jpg" alt="cherr" ></img>
+    </div>
+<div class="pop">
+<h2>Cherries, interrupted</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+ What else?</p>
+        </div>
+        </div>
+       
+
+
+ <div class="ph">
+    <div class="ph1">   
+        
+<img src="wine.jpg" alt="wine" ></img>
+    </div>
+<div class="pop">
+<h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+    
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+<div class="ph1-list">
+
+<div class="ph2">
+    <div class="ph12">   
+        
+<img src="popsicle.jpg" alt="popsicle" ></img>
+    </div>
+<div class="mom">
+<h2>All I Need Is a Popsicle</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+    
+</div>
+
+<div class="ph2">
+    <div class="ph12">   
+        
+<img src="salmon.jpg" alt="salmon" ></img>
+    </div>
+<div class="mom">
+<h2>Salmon For Your Skin</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+    
+</div>
+
+<div class="ph2">
+    <div class="ph12">   
+        
+<img src="sandwich (1).jpg" alt="Sandwich 1" ></img>
+    </div>
+<div class="mom">
+<h2>The Perfect Sandwich, A Real Classic</h2>
+<p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+    
+</div>
+
+<div class="ph2">
+    <div class="ph12">   
+        
+<img src="croissant.jpg" alt="croissant" ></img>
+    </div>
+<div class="mom">
+<h2>Le French</h2>
+<p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+    
+</div>
+</div>
+
+
+
+
+<br><br><br><br><br><br><br>
+
+
+
+
+
+<hr>
+
+
+<br><br>
+<h3 align="center">About Me, The Food Man</h3>
+
+<br><br>
+<div class="chef">
+<img src="chef.jpg" alt="chef" ></img>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 align="center">I am Who I Am!</h3>
+<p> <center>With Passion For Real, Good Food</center>
+    Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+
+<br>
+<hr>
+<br>
+
+
+<div class="container" >
+    <div class="contact-parent">
+       <div class="contact-child child1">
+          <p>
+             <i class="fas fa-map-marker-alt"></i> Address <br />
+             <span> menouf city
+             <br />
+             menoufia, egy
+             </span>
+          </p>
+          <p>
+             <i class="fas fa-phone-alt"></i> Let's Talk <br />
+             <span> 01093568986</span>
+          </p>
+          <p>
+             <i class=" far fa-envelope"></i> General Support <br />
+             <span>ososm456@gmail.com</span>
+          </p>
+       </div>
+       <div class="contact-child child2">
+          <div class="inside-contact">
+             <h2>Contact Us</h2>
+             <h3>
+                <span id="confirm">
+             </h3>
+             <p>Name *</p>
+             <input id="txt_name" type="text" Required="required">
+             <p>Email *</p>
+             <input id="txt_email" type="text" Required="required">
+             <p>Phone *</p>
+             <input id="txt_phone" type="text" Required="required">
+             <p>Subject *</p>
+             <input id="txt_subject" type="text" Required="required">
+             <p>Message *</p>
+             <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+             <input type="submit" id="btn_send" value="SEND">
+          </div>
+       </div>
+    </div>
+ </div>
+
+
+ <a href="#">facebook </a>
+
+
+
+
+<script src="food.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    if(localStorage.getItem("themeMode") === "dark"){
+    addCssDark();
+    }else{
+    localStorage.setItem("themeMode", "light");
+    }
+    function changeTheme(){
+    if(localStorage.getItem("themeMode") === "light"){
+    addCssDark();
+    localStorage.setItem("themeMode", "dark");
+    }else{
+    document.getElementById("masdark").remove();
+    document.getElementById("toggles").classList.remove("active");
+    localStorage.setItem("themeMode", "light");
+    document.getElementById("toggles").title = "Change to dark mode";
+    }
+    }
+    function addCssDark(){
+    document.head.innerHTML = document.head.innerHTML + '<style id="masdark">html, html * {color: #eeeeee !important; background-color: #292929 !important;} a {color: #8db2e5 !important;} a:visited {color: rgb(211, 138, 138) !important;} #toggles.active {background: #fff !important;}</style>';
+    document.getElementById("toggles").classList.add("active");
+    document.getElementById("toggles").title = "Change to light mode";
+    }
+    </script>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
